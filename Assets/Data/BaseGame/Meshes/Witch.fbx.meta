@@ -1,0 +1,491 @@
+fileFormatVersion: 2
+guid: bb2a742e9a4f67042a385a582ee893d5
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature.001
+    100002: Armature.002
+    100004: BigHat
+    100006: Body
+    100008: Body IK Mesh
+    100010: Body IK Mesh.001
+    100012: Body.001
+    100014: Chest
+    100016: Chest 1
+    100018: Circle Mesh
+    100020: Circle Mesh.001
+    100022: CloakHead.001
+    100024: CloakTorso.001
+    100026: Cube.032
+    100028: Cube.033
+    100030: Dummy Foot.L
+    100032: Dummy Foot.L 1
+    100034: Dummy Foot.R
+    100036: Dummy Foot.R 1
+    100038: Dummy Toes.L
+    100040: Dummy Toes.L 1
+    100042: Dummy Toes.R
+    100044: Dummy Toes.R 1
+    100046: Face.001
+    100048: Finger 1 End.L
+    100050: Finger 1 End.L 1
+    100052: Finger 1 End.R
+    100054: Finger 1 End.R 1
+    100056: Finger 1 Mid.L
+    100058: Finger 1 Mid.L 1
+    100060: Finger 1 Mid.R
+    100062: Finger 1 Mid.R 1
+    100064: Finger 1 Start.L
+    100066: Finger 1 Start.L 1
+    100068: Finger 1 Start.R
+    100070: Finger 1 Start.R 1
+    100072: Finger 2 End.L
+    100074: Finger 2 End.L 1
+    100076: Finger 2 End.R
+    100078: Finger 2 End.R 1
+    100080: Finger 2 Mid.L
+    100082: Finger 2 Mid.L 1
+    100084: Finger 2 Mid.R
+    100086: Finger 2 Mid.R 1
+    100088: Finger 2 Start.L
+    100090: Finger 2 Start.L 1
+    100092: Finger 2 Start.R
+    100094: Finger 2 Start.R 1
+    100096: Finger 3 End.L
+    100098: Finger 3 End.L 1
+    100100: Finger 3 End.R
+    100102: Finger 3 End.R 1
+    100104: Finger 3 Mid.L
+    100106: Finger 3 Mid.L 1
+    100108: Finger 3 Mid.R
+    100110: Finger 3 Mid.R 1
+    100112: Finger 3 Start.L
+    100114: Finger 3 Start.L 1
+    100116: Finger 3 Start.R
+    100118: Finger 3 Start.R 1
+    100120: Finger 4 End.L
+    100122: Finger 4 End.L 1
+    100124: Finger 4 End.R
+    100126: Finger 4 End.R 1
+    100128: Finger 4 Mid.L
+    100130: Finger 4 Mid.L 1
+    100132: Finger 4 Mid.R
+    100134: Finger 4 Mid.R 1
+    100136: Finger 4 Start.L
+    100138: Finger 4 Start.L 1
+    100140: Finger 4 Start.R
+    100142: Finger 4 Start.R 1
+    100144: Finger Mesh
+    100146: Finger Mesh.001
+    100148: Foot Ctrl R
+    100150: Foot Ctrl R 1
+    100152: Foot Mesh
+    100154: Foot Mesh.001
+    100156: Fore Arm.L
+    100158: Fore Arm.L 1
+    100160: Fore Arm.R
+    100162: Fore Arm.R 1
+    100164: Hair
+    100166: Hair.001
+    100168: Hair.002
+    100170: Hand Mesh
+    100172: Hand Mesh.001
+    100174: Hand.L
+    100176: Hand.L 1
+    100178: Hand.R
+    100180: Hand.R 1
+    100182: Head
+    100184: Head 1
+    100186: Head 2
+    100188: Head.001
+    100190: Hips
+    100192: Hips 1
+    100194: Lower Leg.L
+    100196: Lower Leg.L 1
+    100198: Lower Leg.R
+    100200: Lower Leg.R 1
+    100202: MainBody.001
+    100204: Neck
+    100206: Neck 1
+    100208: Pole Target Mesh
+    100210: Pole Target Mesh.001
+    100212: Shoulder Mesh
+    100214: Shoulder Mesh.001
+    100216: Shoulder.L
+    100218: Shoulder.L 1
+    100220: Shoulder.R
+    100222: Shoulder.R 1
+    100224: Sphere.016
+    100226: Sphere.019
+    100228: Spine
+    100230: Spine 1
+    100232: Thumb End.L
+    100234: Thumb End.L 1
+    100236: Thumb End.R
+    100238: Thumb End.R 1
+    100240: Thumb Mid.L
+    100242: Thumb Mid.L 1
+    100244: Thumb Mid.R
+    100246: Thumb Mid.R 1
+    100248: Thumb Start.L
+    100250: Thumb Start.L 1
+    100252: Thumb Start.R
+    100254: Thumb Start.R 1
+    100256: Upper Arm.L
+    100258: Upper Arm.L 1
+    100260: Upper Arm.R
+    100262: Upper Arm.R 1
+    100264: Upper Leg.L
+    100266: Upper Leg.L 1
+    100268: Upper Leg.R
+    100270: Upper Leg.R 1
+    100272: //RootNode
+    400000: Armature.001
+    400002: Armature.002
+    400004: BigHat
+    400006: Body
+    400008: Body IK Mesh
+    400010: Body IK Mesh.001
+    400012: Body.001
+    400014: Chest
+    400016: Chest 1
+    400018: Circle Mesh
+    400020: Circle Mesh.001
+    400022: CloakHead.001
+    400024: CloakTorso.001
+    400026: Cube.032
+    400028: Cube.033
+    400030: Dummy Foot.L
+    400032: Dummy Foot.L 1
+    400034: Dummy Foot.R
+    400036: Dummy Foot.R 1
+    400038: Dummy Toes.L
+    400040: Dummy Toes.L 1
+    400042: Dummy Toes.R
+    400044: Dummy Toes.R 1
+    400046: Face.001
+    400048: Finger 1 End.L
+    400050: Finger 1 End.L 1
+    400052: Finger 1 End.R
+    400054: Finger 1 End.R 1
+    400056: Finger 1 Mid.L
+    400058: Finger 1 Mid.L 1
+    400060: Finger 1 Mid.R
+    400062: Finger 1 Mid.R 1
+    400064: Finger 1 Start.L
+    400066: Finger 1 Start.L 1
+    400068: Finger 1 Start.R
+    400070: Finger 1 Start.R 1
+    400072: Finger 2 End.L
+    400074: Finger 2 End.L 1
+    400076: Finger 2 End.R
+    400078: Finger 2 End.R 1
+    400080: Finger 2 Mid.L
+    400082: Finger 2 Mid.L 1
+    400084: Finger 2 Mid.R
+    400086: Finger 2 Mid.R 1
+    400088: Finger 2 Start.L
+    400090: Finger 2 Start.L 1
+    400092: Finger 2 Start.R
+    400094: Finger 2 Start.R 1
+    400096: Finger 3 End.L
+    400098: Finger 3 End.L 1
+    400100: Finger 3 End.R
+    400102: Finger 3 End.R 1
+    400104: Finger 3 Mid.L
+    400106: Finger 3 Mid.L 1
+    400108: Finger 3 Mid.R
+    400110: Finger 3 Mid.R 1
+    400112: Finger 3 Start.L
+    400114: Finger 3 Start.L 1
+    400116: Finger 3 Start.R
+    400118: Finger 3 Start.R 1
+    400120: Finger 4 End.L
+    400122: Finger 4 End.L 1
+    400124: Finger 4 End.R
+    400126: Finger 4 End.R 1
+    400128: Finger 4 Mid.L
+    400130: Finger 4 Mid.L 1
+    400132: Finger 4 Mid.R
+    400134: Finger 4 Mid.R 1
+    400136: Finger 4 Start.L
+    400138: Finger 4 Start.L 1
+    400140: Finger 4 Start.R
+    400142: Finger 4 Start.R 1
+    400144: Finger Mesh
+    400146: Finger Mesh.001
+    400148: Foot Ctrl R
+    400150: Foot Ctrl R 1
+    400152: Foot Mesh
+    400154: Foot Mesh.001
+    400156: Fore Arm.L
+    400158: Fore Arm.L 1
+    400160: Fore Arm.R
+    400162: Fore Arm.R 1
+    400164: Hair
+    400166: Hair.001
+    400168: Hair.002
+    400170: Hand Mesh
+    400172: Hand Mesh.001
+    400174: Hand.L
+    400176: Hand.L 1
+    400178: Hand.R
+    400180: Hand.R 1
+    400182: Head
+    400184: Head 1
+    400186: Head 2
+    400188: Head.001
+    400190: Hips
+    400192: Hips 1
+    400194: Lower Leg.L
+    400196: Lower Leg.L 1
+    400198: Lower Leg.R
+    400200: Lower Leg.R 1
+    400202: MainBody.001
+    400204: Neck
+    400206: Neck 1
+    400208: Pole Target Mesh
+    400210: Pole Target Mesh.001
+    400212: Shoulder Mesh
+    400214: Shoulder Mesh.001
+    400216: Shoulder.L
+    400218: Shoulder.L 1
+    400220: Shoulder.R
+    400222: Shoulder.R 1
+    400224: Sphere.016
+    400226: Sphere.019
+    400228: Spine
+    400230: Spine 1
+    400232: Thumb End.L
+    400234: Thumb End.L 1
+    400236: Thumb End.R
+    400238: Thumb End.R 1
+    400240: Thumb Mid.L
+    400242: Thumb Mid.L 1
+    400244: Thumb Mid.R
+    400246: Thumb Mid.R 1
+    400248: Thumb Start.L
+    400250: Thumb Start.L 1
+    400252: Thumb Start.R
+    400254: Thumb Start.R 1
+    400256: Upper Arm.L
+    400258: Upper Arm.L 1
+    400260: Upper Arm.R
+    400262: Upper Arm.R 1
+    400264: Upper Leg.L
+    400266: Upper Leg.L 1
+    400268: Upper Leg.R
+    400270: Upper Leg.R 1
+    400272: //RootNode
+    2100000: Jacket
+    2100002: Shirt
+    2100004: Body
+    2100006: Cloth
+    2100008: Boots
+    2100010: Hair
+    2100012: No Name
+    2100014: Body.002
+    2100016: Hair.001
+    2100018: Material.002
+    2100020: Material
+    2100022: Material.003
+    2100024: Material.004
+    2100026: Body.003
+    2100028: Hat
+    2100030: Hair.002
+    2100032: Boots.001
+    2100034: Uniform
+    2100036: Material.008
+    2100038: Material.005
+    2100040: Material.006
+    2100042: Body.004
+    2100044: Hair.003
+    2300000: BigHat
+    2300002: Body
+    2300004: Body IK Mesh
+    2300006: Body IK Mesh.001
+    2300008: Body.001
+    2300010: Circle Mesh
+    2300012: Circle Mesh.001
+    2300014: CloakHead.001
+    2300016: CloakTorso.001
+    2300018: Cube.032
+    2300020: Finger Mesh
+    2300022: Finger Mesh.001
+    2300024: Foot Mesh
+    2300026: Foot Mesh.001
+    2300028: Hair
+    2300030: Hair.001
+    2300032: Hand Mesh
+    2300034: Hand Mesh.001
+    2300036: Head
+    2300038: Head.001
+    2300040: Pole Target Mesh
+    2300042: Pole Target Mesh.001
+    2300044: Shoulder Mesh
+    2300046: Shoulder Mesh.001
+    2300048: Cube.033
+    2300050: Face.001
+    2300052: Hair.002
+    2300054: MainBody.001
+    2300056: Sphere.016
+    2300058: Sphere.019
+    3300000: BigHat
+    3300002: Body
+    3300004: Body IK Mesh
+    3300006: Body IK Mesh.001
+    3300008: Body.001
+    3300010: Circle Mesh
+    3300012: Circle Mesh.001
+    3300014: CloakHead.001
+    3300016: CloakTorso.001
+    3300018: Cube.032
+    3300020: Finger Mesh
+    3300022: Finger Mesh.001
+    3300024: Foot Mesh
+    3300026: Foot Mesh.001
+    3300028: Hair
+    3300030: Hair.001
+    3300032: Hand Mesh
+    3300034: Hand Mesh.001
+    3300036: Head
+    3300038: Head.001
+    3300040: Pole Target Mesh
+    3300042: Pole Target Mesh.001
+    3300044: Shoulder Mesh
+    3300046: Shoulder Mesh.001
+    3300048: Cube.033
+    3300050: Face.001
+    3300052: Hair.002
+    3300054: MainBody.001
+    3300056: Sphere.016
+    3300058: Sphere.019
+    4300000: Body
+    4300002: Hair
+    4300004: BigHat
+    4300006: Head
+    4300008: Body IK Mesh
+    4300010: Circle Mesh
+    4300012: Face.001
+    4300014: Hair.002
+    4300016: MainBody.001
+    4300018: Finger Mesh
+    4300020: Foot Mesh
+    4300022: Hand Mesh
+    4300024: Pole Target Mesh
+    4300026: Shoulder Mesh
+    4300028: Body.001
+    4300030: CloakHead.001
+    4300032: CloakTorso.001
+    4300034: Hair.001
+    4300036: Head.001
+    4300038: Body IK Mesh.001
+    4300040: Circle Mesh.001
+    4300042: Cube.032
+    4300044: Cube.033
+    4300046: Sphere.016
+    4300048: Sphere.019
+    4300050: Finger Mesh.001
+    4300052: Foot Mesh.001
+    4300054: Hand Mesh.001
+    4300056: Pole Target Mesh.001
+    4300058: Shoulder Mesh.001
+    7400000: Armature.002|Grappler Forward
+    7400002: Armature.002|Grappler Idle
+    7400004: Armature.002|Grappler None
+    7400006: Armature.002|Grappler None.001
+    7400008: Body.001|Forward
+    7400010: Armature.001|Grappler Forward
+    7400012: Armature.001|Grappler Idle
+    7400014: Armature.001|Grappler None
+    7400016: Armature.001|Grappler None.001
+    7400018: Hair.002|Grappler Forward
+    9500000: //RootNode
+    13700000: Cube.033
+    13700002: Face.001
+    13700004: Hair.002
+    13700006: MainBody.001
+    13700008: Sphere.016
+    13700010: Sphere.019
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

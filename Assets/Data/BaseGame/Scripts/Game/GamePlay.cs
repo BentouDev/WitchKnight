@@ -23,7 +23,8 @@ public class GamePlay : GameStart
 		MainGame.Instance.Controllers.Enable();
 		MainGame.Instance.GUI.ShowAllUIs();
 		
-		EventSystem.current.SetSelectedGameObject(ActivatorGUI.gameObject);
+		if (EventSystem.current && ActivatorGUI)
+			EventSystem.current.SetSelectedGameObject(ActivatorGUI.gameObject);
 	}
 
 	protected override void OnEnd()
