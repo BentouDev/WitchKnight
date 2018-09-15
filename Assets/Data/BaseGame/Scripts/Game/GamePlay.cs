@@ -21,7 +21,8 @@ public class GamePlay : GameStart
 	protected override void OnStart()
 	{
 		MainGame.Instance.Controllers.Enable();
-		MainGame.Instance.GUI.ShowAllUIs();
+
+		this.TryInit(ref Menu);
 		
 		if (EventSystem.current && ActivatorGUI)
 			EventSystem.current.SetSelectedGameObject(ActivatorGUI.gameObject);
@@ -30,7 +31,8 @@ public class GamePlay : GameStart
 	protected override void OnEnd()
 	{
 		MainGame.Instance.Controllers.Disable();
-		
+		MainGame.Instance.GUI.SwitchToMenu();
+
 		if (EventSystem.current.currentSelectedGameObject == ActivatorGUI.gameObject)
 			EventSystem.current.SetSelectedGameObject(null);
 	}
@@ -43,4 +45,4 @@ public class GamePlay : GameStart
 				Menu.SwitchToMenu(info.Menu);
 		}
 	}
-}
+  }

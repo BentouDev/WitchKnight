@@ -1,0 +1,1329 @@
+fileFormatVersion: 2
+guid: cb25ea70a0e293e4c9fe053e10f6065b
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: chest
+    100002: DEF-chest
+    100004: DEF-f_index_01_L_01
+    100006: DEF-f_index_01_L_02
+    100008: DEF-f_index_01_R_01
+    100010: DEF-f_index_01_R_02
+    100012: DEF-f_index_02_L
+    100014: DEF-f_index_02_R
+    100016: DEF-f_index_03_L
+    100018: DEF-f_index_03_R
+    100020: DEF-f_middle_01_L_01
+    100022: DEF-f_middle_01_L_02
+    100024: DEF-f_middle_01_R_01
+    100026: DEF-f_middle_01_R_02
+    100028: DEF-f_middle_02_L
+    100030: DEF-f_middle_02_R
+    100032: DEF-f_middle_03_L
+    100034: DEF-f_middle_03_R
+    100036: DEF-f_pinky_01_L_01
+    100038: DEF-f_pinky_01_L_02
+    100040: DEF-f_pinky_01_R_01
+    100042: DEF-f_pinky_01_R_02
+    100044: DEF-f_pinky_02_L
+    100046: DEF-f_pinky_02_R
+    100048: DEF-f_pinky_03_L
+    100050: DEF-f_pinky_03_R
+    100052: DEF-f_ring_01_L_01
+    100054: DEF-f_ring_01_L_02
+    100056: DEF-f_ring_01_R_01
+    100058: DEF-f_ring_01_R_02
+    100060: DEF-f_ring_02_L
+    100062: DEF-f_ring_02_R
+    100064: DEF-f_ring_03_L
+    100066: DEF-f_ring_03_R
+    100068: DEF-foot_L
+    100070: DEF-foot_R
+    100072: DEF-forearm_01_L
+    100074: DEF-forearm_01_R
+    100076: DEF-forearm_02_L
+    100078: DEF-forearm_02_R
+    100080: DEF-hand_L
+    100082: DEF-hand_R
+    100084: DEF-head
+    100086: DEF-hips
+    100088: DEF-neck
+    100090: DEF-shin_01_L
+    100092: DEF-shin_01_R
+    100094: DEF-shin_02_L
+    100096: DEF-shin_02_R
+    100098: DEF-shoulder_L
+    100100: DEF-shoulder_R
+    100102: DEF-spine
+    100104: DEF-thigh_01_L
+    100106: DEF-thigh_01_R
+    100108: DEF-thigh_02_L
+    100110: DEF-thigh_02_R
+    100112: DEF-thumb_01_L_01
+    100114: DEF-thumb_01_L_02
+    100116: DEF-thumb_01_R_01
+    100118: DEF-thumb_01_R_02
+    100120: DEF-thumb_02_L
+    100122: DEF-thumb_02_R
+    100124: DEF-thumb_03_L
+    100126: DEF-thumb_03_R
+    100128: DEF-toe_L
+    100130: DEF-toe_R
+    100132: DEF-upper_arm_01_L
+    100134: DEF-upper_arm_01_R
+    100136: DEF-upper_arm_02_L
+    100138: DEF-upper_arm_02_R
+    100140: elbow_hose_L
+    100142: elbow_hose_R
+    100144: elbow_target_ik_L
+    100146: elbow_target_ik_R
+    100148: f_index_01_L
+    100150: f_index_01_R
+    100152: f_index_02_L
+    100154: f_index_02_R
+    100156: f_index_03_L
+    100158: f_index_03_R
+    100160: f_index_L
+    100162: f_index_R
+    100164: f_middle_01_L
+    100166: f_middle_01_R
+    100168: f_middle_02_L
+    100170: f_middle_02_R
+    100172: f_middle_03_L
+    100174: f_middle_03_R
+    100176: f_middle_L
+    100178: f_middle_R
+    100180: f_pinky_01_L
+    100182: f_pinky_01_R
+    100184: f_pinky_02_L
+    100186: f_pinky_02_R
+    100188: f_pinky_03_L
+    100190: f_pinky_03_R
+    100192: f_pinky_L
+    100194: f_pinky_R
+    100196: f_ring_01_L
+    100198: f_ring_01_R
+    100200: f_ring_02_L
+    100202: f_ring_02_R
+    100204: f_ring_03_L
+    100206: f_ring_03_R
+    100208: f_ring_L
+    100210: f_ring_R
+    100212: foot_fk_L
+    100214: foot_fk_R
+    100216: foot_ik_L
+    100218: foot_ik_R
+    100220: foot_roll_ik_L
+    100222: foot_roll_ik_R
+    100224: forearm_fk_L
+    100226: forearm_fk_R
+    100228: forearm_hose_L
+    100230: forearm_hose_R
+    100232: hand_fk_L
+    100234: hand_fk_R
+    100236: hand_ik_L
+    100238: hand_ik_R
+    100240: head
+    100242: hips
+    100244: knee_hose_L
+    100246: knee_hose_R
+    100248: knee_target_ik_L
+    100250: knee_target_ik_R
+    100252: MCH-chest_flex
+    100254: MCH-chest_flex_s
+    100256: MCH-chest_reverse
+    100258: MCH-elbow_hose_parent_L
+    100260: MCH-elbow_hose_parent_R
+    100262: MCH-f_index_01_L
+    100264: MCH-f_index_01_L_tip
+    100266: MCH-f_index_01_R
+    100268: MCH-f_index_01_R_tip
+    100270: MCH-f_index_02_L
+    100272: MCH-f_index_02_R
+    100274: MCH-f_index_03_L
+    100276: MCH-f_index_03_R
+    100278: MCH-f_middle_01_L
+    100280: MCH-f_middle_01_L_tip
+    100282: MCH-f_middle_01_R
+    100284: MCH-f_middle_01_R_tip
+    100286: MCH-f_middle_02_L
+    100288: MCH-f_middle_02_R
+    100290: MCH-f_middle_03_L
+    100292: MCH-f_middle_03_R
+    100294: MCH-f_pinky_01_L
+    100296: MCH-f_pinky_01_L_tip
+    100298: MCH-f_pinky_01_R
+    100300: MCH-f_pinky_01_R_tip
+    100302: MCH-f_pinky_02_L
+    100304: MCH-f_pinky_02_R
+    100306: MCH-f_pinky_03_L
+    100308: MCH-f_pinky_03_R
+    100310: MCH-f_ring_01_L
+    100312: MCH-f_ring_01_L_tip
+    100314: MCH-f_ring_01_R
+    100316: MCH-f_ring_01_R_tip
+    100318: MCH-f_ring_02_L
+    100320: MCH-f_ring_02_R
+    100322: MCH-f_ring_03_L
+    100324: MCH-f_ring_03_R
+    100326: MCH-foot_L
+    100328: MCH-foot_L_001
+    100330: MCH-foot_L_rocker_01
+    100332: MCH-foot_L_rocker_02
+    100334: MCH-foot_L_roll_01
+    100336: MCH-foot_L_roll_02
+    100338: MCH-foot_R
+    100340: MCH-foot_R_001
+    100342: MCH-foot_R_rocker_01
+    100344: MCH-foot_R_rocker_02
+    100346: MCH-foot_R_roll_01
+    100348: MCH-foot_R_roll_02
+    100350: MCH-forearm_01_L
+    100352: MCH-forearm_01_R
+    100354: MCH-forearm_antistr_fk_L
+    100356: MCH-forearm_antistr_fk_R
+    100358: MCH-forearm_hose_parent_L
+    100360: MCH-forearm_hose_parent_R
+    100362: MCH-forearm_ik_L
+    100364: MCH-forearm_ik_R
+    100366: MCH-forearm_junc_L
+    100368: MCH-forearm_junc_R
+    100370: MCH-forearm_nostr_ik_L
+    100372: MCH-forearm_nostr_ik_R
+    100374: MCH-forearm_smth_01_L
+    100376: MCH-forearm_smth_01_R
+    100378: MCH-forearm_stretch_ik_L
+    100380: MCH-forearm_stretch_ik_R
+    100382: MCH-hand_L
+    100384: MCH-hand_L_001
+    100386: MCH-hand_R
+    100388: MCH-hand_R_001
+    100390: MCH-head
+    100392: MCH-head_001
+    100394: MCH-head_02
+    100396: MCH-head_socket1
+    100398: MCH-head_socket2
+    100400: MCH-hips_fk_ns_ch
+    100402: MCH-hips_fk_ns_ch_001
+    100404: MCH-hips_fk_ns_intr
+    100406: MCH-hips_fk_ns_intr_001
+    100408: MCH-hips_flex
+    100410: MCH-hips_flex_s
+    100412: MCH-hips_ik_ns_ch
+    100414: MCH-hips_ik_ns_ch_001
+    100416: MCH-hips_ik_ns_intr
+    100418: MCH-hips_ik_ns_intr_001
+    100420: MCH-hips_reverse
+    100422: MCH-hips_rh_ns_ch
+    100424: MCH-hips_rh_ns_ch_001
+    100426: MCH-hips_rh_ns_intr
+    100428: MCH-hips_rh_ns_intr_001
+    100430: MCH-knee_hose_parent_L
+    100432: MCH-knee_hose_parent_R
+    100434: MCH-neck
+    100436: MCH-neck_02
+    100438: MCH-neck_child
+    100440: MCH-neck_follow
+    100442: MCH-par_spine
+    100444: MCH-shin_01_L
+    100446: MCH-shin_01_R
+    100448: MCH-shin_antistr_fk_L
+    100450: MCH-shin_antistr_fk_R
+    100452: MCH-shin_hose_parent_L
+    100454: MCH-shin_hose_parent_R
+    100456: MCH-shin_ik_L
+    100458: MCH-shin_ik_R
+    100460: MCH-shin_junc_L
+    100462: MCH-shin_junc_R
+    100464: MCH-shin_nostr_ik_L
+    100466: MCH-shin_nostr_ik_R
+    100468: MCH-shin_smth_01_L
+    100470: MCH-shin_smth_01_R
+    100472: MCH-shin_stretch_ik_L
+    100474: MCH-shin_stretch_ik_R
+    100476: MCH-shoulder_fk_ns_ch_L
+    100478: MCH-shoulder_fk_ns_ch_R
+    100480: MCH-shoulder_fk_ns_intr_L
+    100482: MCH-shoulder_fk_ns_intr_R
+    100484: MCH-shoulder_ik_ns_ch_L
+    100486: MCH-shoulder_ik_ns_ch_R
+    100488: MCH-shoulder_ik_ns_intr_L
+    100490: MCH-shoulder_ik_ns_intr_R
+    100492: MCH-shoulder_rh_ns_ch_L
+    100494: MCH-shoulder_rh_ns_ch_R
+    100496: MCH-shoulder_rh_ns_intr_L
+    100498: MCH-shoulder_rh_ns_intr_R
+    100500: MCH-spine_flex
+    100502: MCH-spine_flex_s
+    100504: MCH-spine_reverse
+    100506: MCH-sub_chest
+    100508: MCH-sub_hips
+    100510: MCH-sub_spine
+    100512: MCH-thigh_antistr_fk_L
+    100514: MCH-thigh_antistr_fk_R
+    100516: MCH-thigh_fk_L_socket1
+    100518: MCH-thigh_fk_L_socket2
+    100520: MCH-thigh_fk_R_socket1
+    100522: MCH-thigh_fk_R_socket2
+    100524: MCH-thigh_hose_parent_L
+    100526: MCH-thigh_hose_parent_R
+    100528: MCH-thigh_ik_L
+    100530: MCH-thigh_ik_R
+    100532: MCH-thigh_nostr_ik_L
+    100534: MCH-thigh_nostr_ik_R
+    100536: MCH-thigh_smth_02_L
+    100538: MCH-thigh_smth_02_R
+    100540: MCH-thigh_stretch_ik_L
+    100542: MCH-thigh_stretch_ik_R
+    100544: MCH-thumb_01_L
+    100546: MCH-thumb_01_L_tip
+    100548: MCH-thumb_01_R
+    100550: MCH-thumb_01_R_tip
+    100552: MCH-thumb_02_L
+    100554: MCH-thumb_02_R
+    100556: MCH-thumb_03_L
+    100558: MCH-thumb_03_R
+    100560: MCH-toe_L_parent
+    100562: MCH-toe_L_socket1
+    100564: MCH-toe_L_socket2
+    100566: MCH-toe_R_parent
+    100568: MCH-toe_R_socket1
+    100570: MCH-toe_R_socket2
+    100572: MCH-upper_arm_antistr_fk_L
+    100574: MCH-upper_arm_antistr_fk_R
+    100576: MCH-upper_arm_fk_L_socket1
+    100578: MCH-upper_arm_fk_L_socket2
+    100580: MCH-upper_arm_fk_R_socket1
+    100582: MCH-upper_arm_fk_R_socket2
+    100584: MCH-upper_arm_hose_parent_L
+    100586: MCH-upper_arm_hose_parent_R
+    100588: MCH-upper_arm_ik_L
+    100590: MCH-upper_arm_ik_R
+    100592: MCH-upper_arm_nostr_ik_L
+    100594: MCH-upper_arm_nostr_ik_R
+    100596: MCH-upper_arm_smth_02_L
+    100598: MCH-upper_arm_smth_02_R
+    100600: MCH-upper_arm_stretch_ik_L
+    100602: MCH-upper_arm_stretch_ik_R
+    100604: neck
+    100606: ORG-chest
+    100608: ORG-f_index_01_L
+    100610: ORG-f_index_01_R
+    100612: ORG-f_index_02_L
+    100614: ORG-f_index_02_R
+    100616: ORG-f_index_03_L
+    100618: ORG-f_index_03_R
+    100620: ORG-f_middle_01_L
+    100622: ORG-f_middle_01_R
+    100624: ORG-f_middle_02_L
+    100626: ORG-f_middle_02_R
+    100628: ORG-f_middle_03_L
+    100630: ORG-f_middle_03_R
+    100632: ORG-f_pinky_01_L
+    100634: ORG-f_pinky_01_R
+    100636: ORG-f_pinky_02_L
+    100638: ORG-f_pinky_02_R
+    100640: ORG-f_pinky_03_L
+    100642: ORG-f_pinky_03_R
+    100644: ORG-f_ring_01_L
+    100646: ORG-f_ring_01_R
+    100648: ORG-f_ring_02_L
+    100650: ORG-f_ring_02_R
+    100652: ORG-f_ring_03_L
+    100654: ORG-f_ring_03_R
+    100656: ORG-foot_L
+    100658: ORG-foot_R
+    100660: ORG-forearm_L
+    100662: ORG-forearm_R
+    100664: ORG-hand_L
+    100666: ORG-hand_R
+    100668: ORG-head
+    100670: ORG-heel_02_L
+    100672: ORG-heel_02_R
+    100674: ORG-heel_L
+    100676: ORG-heel_R
+    100678: ORG-hips
+    100680: ORG-neck
+    100682: ORG-shin_L
+    100684: ORG-shin_R
+    100686: ORG-shoulder_L
+    100688: ORG-shoulder_R
+    100690: ORG-spine
+    100692: ORG-thigh_L
+    100694: ORG-thigh_R
+    100696: ORG-thumb_01_L
+    100698: ORG-thumb_01_R
+    100700: ORG-thumb_02_L
+    100702: ORG-thumb_02_R
+    100704: ORG-thumb_03_L
+    100706: ORG-thumb_03_R
+    100708: ORG-toe_L
+    100710: ORG-toe_R
+    100712: ORG-upper_arm_L
+    100714: ORG-upper_arm_R
+    100716: rig
+    100718: root
+    100720: shin_fk_L
+    100722: shin_fk_R
+    100724: shin_hose_L
+    100726: shin_hose_R
+    100728: shoulder_L
+    100730: shoulder_R
+    100732: spine
+    100734: //RootNode
+    100736: thigh_fk_L
+    100738: thigh_fk_R
+    100740: thigh_hose_L
+    100742: thigh_hose_R
+    100744: thumb_01_L
+    100746: thumb_01_R
+    100748: thumb_02_L
+    100750: thumb_02_R
+    100752: thumb_03_L
+    100754: thumb_03_R
+    100756: thumb_L
+    100758: thumb_R
+    100760: toe_L
+    100762: toe_R
+    100764: torso
+    100766: upper_arm_fk_L
+    100768: upper_arm_fk_R
+    100770: upper_arm_hose_L
+    100772: upper_arm_hose_R
+    100774: VIS-foot_ik_L
+    100776: VIS-foot_ik_R
+    100778: VIS-hand_ik_L
+    100780: VIS-hand_ik_R
+    100782: VIS-thigh_pole_ik_L
+    100784: VIS-thigh_pole_ik_R
+    100786: VIS-upper_arm_pole_ik_L
+    100788: VIS-upper_arm_pole_ik_R
+    400000: chest
+    400002: DEF-chest
+    400004: DEF-f_index_01_L_01
+    400006: DEF-f_index_01_L_02
+    400008: DEF-f_index_01_R_01
+    400010: DEF-f_index_01_R_02
+    400012: DEF-f_index_02_L
+    400014: DEF-f_index_02_R
+    400016: DEF-f_index_03_L
+    400018: DEF-f_index_03_R
+    400020: DEF-f_middle_01_L_01
+    400022: DEF-f_middle_01_L_02
+    400024: DEF-f_middle_01_R_01
+    400026: DEF-f_middle_01_R_02
+    400028: DEF-f_middle_02_L
+    400030: DEF-f_middle_02_R
+    400032: DEF-f_middle_03_L
+    400034: DEF-f_middle_03_R
+    400036: DEF-f_pinky_01_L_01
+    400038: DEF-f_pinky_01_L_02
+    400040: DEF-f_pinky_01_R_01
+    400042: DEF-f_pinky_01_R_02
+    400044: DEF-f_pinky_02_L
+    400046: DEF-f_pinky_02_R
+    400048: DEF-f_pinky_03_L
+    400050: DEF-f_pinky_03_R
+    400052: DEF-f_ring_01_L_01
+    400054: DEF-f_ring_01_L_02
+    400056: DEF-f_ring_01_R_01
+    400058: DEF-f_ring_01_R_02
+    400060: DEF-f_ring_02_L
+    400062: DEF-f_ring_02_R
+    400064: DEF-f_ring_03_L
+    400066: DEF-f_ring_03_R
+    400068: DEF-foot_L
+    400070: DEF-foot_R
+    400072: DEF-forearm_01_L
+    400074: DEF-forearm_01_R
+    400076: DEF-forearm_02_L
+    400078: DEF-forearm_02_R
+    400080: DEF-hand_L
+    400082: DEF-hand_R
+    400084: DEF-head
+    400086: DEF-hips
+    400088: DEF-neck
+    400090: DEF-shin_01_L
+    400092: DEF-shin_01_R
+    400094: DEF-shin_02_L
+    400096: DEF-shin_02_R
+    400098: DEF-shoulder_L
+    400100: DEF-shoulder_R
+    400102: DEF-spine
+    400104: DEF-thigh_01_L
+    400106: DEF-thigh_01_R
+    400108: DEF-thigh_02_L
+    400110: DEF-thigh_02_R
+    400112: DEF-thumb_01_L_01
+    400114: DEF-thumb_01_L_02
+    400116: DEF-thumb_01_R_01
+    400118: DEF-thumb_01_R_02
+    400120: DEF-thumb_02_L
+    400122: DEF-thumb_02_R
+    400124: DEF-thumb_03_L
+    400126: DEF-thumb_03_R
+    400128: DEF-toe_L
+    400130: DEF-toe_R
+    400132: DEF-upper_arm_01_L
+    400134: DEF-upper_arm_01_R
+    400136: DEF-upper_arm_02_L
+    400138: DEF-upper_arm_02_R
+    400140: elbow_hose_L
+    400142: elbow_hose_R
+    400144: elbow_target_ik_L
+    400146: elbow_target_ik_R
+    400148: f_index_01_L
+    400150: f_index_01_R
+    400152: f_index_02_L
+    400154: f_index_02_R
+    400156: f_index_03_L
+    400158: f_index_03_R
+    400160: f_index_L
+    400162: f_index_R
+    400164: f_middle_01_L
+    400166: f_middle_01_R
+    400168: f_middle_02_L
+    400170: f_middle_02_R
+    400172: f_middle_03_L
+    400174: f_middle_03_R
+    400176: f_middle_L
+    400178: f_middle_R
+    400180: f_pinky_01_L
+    400182: f_pinky_01_R
+    400184: f_pinky_02_L
+    400186: f_pinky_02_R
+    400188: f_pinky_03_L
+    400190: f_pinky_03_R
+    400192: f_pinky_L
+    400194: f_pinky_R
+    400196: f_ring_01_L
+    400198: f_ring_01_R
+    400200: f_ring_02_L
+    400202: f_ring_02_R
+    400204: f_ring_03_L
+    400206: f_ring_03_R
+    400208: f_ring_L
+    400210: f_ring_R
+    400212: foot_fk_L
+    400214: foot_fk_R
+    400216: foot_ik_L
+    400218: foot_ik_R
+    400220: foot_roll_ik_L
+    400222: foot_roll_ik_R
+    400224: forearm_fk_L
+    400226: forearm_fk_R
+    400228: forearm_hose_L
+    400230: forearm_hose_R
+    400232: hand_fk_L
+    400234: hand_fk_R
+    400236: hand_ik_L
+    400238: hand_ik_R
+    400240: head
+    400242: hips
+    400244: knee_hose_L
+    400246: knee_hose_R
+    400248: knee_target_ik_L
+    400250: knee_target_ik_R
+    400252: MCH-chest_flex
+    400254: MCH-chest_flex_s
+    400256: MCH-chest_reverse
+    400258: MCH-elbow_hose_parent_L
+    400260: MCH-elbow_hose_parent_R
+    400262: MCH-f_index_01_L
+    400264: MCH-f_index_01_L_tip
+    400266: MCH-f_index_01_R
+    400268: MCH-f_index_01_R_tip
+    400270: MCH-f_index_02_L
+    400272: MCH-f_index_02_R
+    400274: MCH-f_index_03_L
+    400276: MCH-f_index_03_R
+    400278: MCH-f_middle_01_L
+    400280: MCH-f_middle_01_L_tip
+    400282: MCH-f_middle_01_R
+    400284: MCH-f_middle_01_R_tip
+    400286: MCH-f_middle_02_L
+    400288: MCH-f_middle_02_R
+    400290: MCH-f_middle_03_L
+    400292: MCH-f_middle_03_R
+    400294: MCH-f_pinky_01_L
+    400296: MCH-f_pinky_01_L_tip
+    400298: MCH-f_pinky_01_R
+    400300: MCH-f_pinky_01_R_tip
+    400302: MCH-f_pinky_02_L
+    400304: MCH-f_pinky_02_R
+    400306: MCH-f_pinky_03_L
+    400308: MCH-f_pinky_03_R
+    400310: MCH-f_ring_01_L
+    400312: MCH-f_ring_01_L_tip
+    400314: MCH-f_ring_01_R
+    400316: MCH-f_ring_01_R_tip
+    400318: MCH-f_ring_02_L
+    400320: MCH-f_ring_02_R
+    400322: MCH-f_ring_03_L
+    400324: MCH-f_ring_03_R
+    400326: MCH-foot_L
+    400328: MCH-foot_L_001
+    400330: MCH-foot_L_rocker_01
+    400332: MCH-foot_L_rocker_02
+    400334: MCH-foot_L_roll_01
+    400336: MCH-foot_L_roll_02
+    400338: MCH-foot_R
+    400340: MCH-foot_R_001
+    400342: MCH-foot_R_rocker_01
+    400344: MCH-foot_R_rocker_02
+    400346: MCH-foot_R_roll_01
+    400348: MCH-foot_R_roll_02
+    400350: MCH-forearm_01_L
+    400352: MCH-forearm_01_R
+    400354: MCH-forearm_antistr_fk_L
+    400356: MCH-forearm_antistr_fk_R
+    400358: MCH-forearm_hose_parent_L
+    400360: MCH-forearm_hose_parent_R
+    400362: MCH-forearm_ik_L
+    400364: MCH-forearm_ik_R
+    400366: MCH-forearm_junc_L
+    400368: MCH-forearm_junc_R
+    400370: MCH-forearm_nostr_ik_L
+    400372: MCH-forearm_nostr_ik_R
+    400374: MCH-forearm_smth_01_L
+    400376: MCH-forearm_smth_01_R
+    400378: MCH-forearm_stretch_ik_L
+    400380: MCH-forearm_stretch_ik_R
+    400382: MCH-hand_L
+    400384: MCH-hand_L_001
+    400386: MCH-hand_R
+    400388: MCH-hand_R_001
+    400390: MCH-head
+    400392: MCH-head_001
+    400394: MCH-head_02
+    400396: MCH-head_socket1
+    400398: MCH-head_socket2
+    400400: MCH-hips_fk_ns_ch
+    400402: MCH-hips_fk_ns_ch_001
+    400404: MCH-hips_fk_ns_intr
+    400406: MCH-hips_fk_ns_intr_001
+    400408: MCH-hips_flex
+    400410: MCH-hips_flex_s
+    400412: MCH-hips_ik_ns_ch
+    400414: MCH-hips_ik_ns_ch_001
+    400416: MCH-hips_ik_ns_intr
+    400418: MCH-hips_ik_ns_intr_001
+    400420: MCH-hips_reverse
+    400422: MCH-hips_rh_ns_ch
+    400424: MCH-hips_rh_ns_ch_001
+    400426: MCH-hips_rh_ns_intr
+    400428: MCH-hips_rh_ns_intr_001
+    400430: MCH-knee_hose_parent_L
+    400432: MCH-knee_hose_parent_R
+    400434: MCH-neck
+    400436: MCH-neck_02
+    400438: MCH-neck_child
+    400440: MCH-neck_follow
+    400442: MCH-par_spine
+    400444: MCH-shin_01_L
+    400446: MCH-shin_01_R
+    400448: MCH-shin_antistr_fk_L
+    400450: MCH-shin_antistr_fk_R
+    400452: MCH-shin_hose_parent_L
+    400454: MCH-shin_hose_parent_R
+    400456: MCH-shin_ik_L
+    400458: MCH-shin_ik_R
+    400460: MCH-shin_junc_L
+    400462: MCH-shin_junc_R
+    400464: MCH-shin_nostr_ik_L
+    400466: MCH-shin_nostr_ik_R
+    400468: MCH-shin_smth_01_L
+    400470: MCH-shin_smth_01_R
+    400472: MCH-shin_stretch_ik_L
+    400474: MCH-shin_stretch_ik_R
+    400476: MCH-shoulder_fk_ns_ch_L
+    400478: MCH-shoulder_fk_ns_ch_R
+    400480: MCH-shoulder_fk_ns_intr_L
+    400482: MCH-shoulder_fk_ns_intr_R
+    400484: MCH-shoulder_ik_ns_ch_L
+    400486: MCH-shoulder_ik_ns_ch_R
+    400488: MCH-shoulder_ik_ns_intr_L
+    400490: MCH-shoulder_ik_ns_intr_R
+    400492: MCH-shoulder_rh_ns_ch_L
+    400494: MCH-shoulder_rh_ns_ch_R
+    400496: MCH-shoulder_rh_ns_intr_L
+    400498: MCH-shoulder_rh_ns_intr_R
+    400500: MCH-spine_flex
+    400502: MCH-spine_flex_s
+    400504: MCH-spine_reverse
+    400506: MCH-sub_chest
+    400508: MCH-sub_hips
+    400510: MCH-sub_spine
+    400512: MCH-thigh_antistr_fk_L
+    400514: MCH-thigh_antistr_fk_R
+    400516: MCH-thigh_fk_L_socket1
+    400518: MCH-thigh_fk_L_socket2
+    400520: MCH-thigh_fk_R_socket1
+    400522: MCH-thigh_fk_R_socket2
+    400524: MCH-thigh_hose_parent_L
+    400526: MCH-thigh_hose_parent_R
+    400528: MCH-thigh_ik_L
+    400530: MCH-thigh_ik_R
+    400532: MCH-thigh_nostr_ik_L
+    400534: MCH-thigh_nostr_ik_R
+    400536: MCH-thigh_smth_02_L
+    400538: MCH-thigh_smth_02_R
+    400540: MCH-thigh_stretch_ik_L
+    400542: MCH-thigh_stretch_ik_R
+    400544: MCH-thumb_01_L
+    400546: MCH-thumb_01_L_tip
+    400548: MCH-thumb_01_R
+    400550: MCH-thumb_01_R_tip
+    400552: MCH-thumb_02_L
+    400554: MCH-thumb_02_R
+    400556: MCH-thumb_03_L
+    400558: MCH-thumb_03_R
+    400560: MCH-toe_L_parent
+    400562: MCH-toe_L_socket1
+    400564: MCH-toe_L_socket2
+    400566: MCH-toe_R_parent
+    400568: MCH-toe_R_socket1
+    400570: MCH-toe_R_socket2
+    400572: MCH-upper_arm_antistr_fk_L
+    400574: MCH-upper_arm_antistr_fk_R
+    400576: MCH-upper_arm_fk_L_socket1
+    400578: MCH-upper_arm_fk_L_socket2
+    400580: MCH-upper_arm_fk_R_socket1
+    400582: MCH-upper_arm_fk_R_socket2
+    400584: MCH-upper_arm_hose_parent_L
+    400586: MCH-upper_arm_hose_parent_R
+    400588: MCH-upper_arm_ik_L
+    400590: MCH-upper_arm_ik_R
+    400592: MCH-upper_arm_nostr_ik_L
+    400594: MCH-upper_arm_nostr_ik_R
+    400596: MCH-upper_arm_smth_02_L
+    400598: MCH-upper_arm_smth_02_R
+    400600: MCH-upper_arm_stretch_ik_L
+    400602: MCH-upper_arm_stretch_ik_R
+    400604: neck
+    400606: ORG-chest
+    400608: ORG-f_index_01_L
+    400610: ORG-f_index_01_R
+    400612: ORG-f_index_02_L
+    400614: ORG-f_index_02_R
+    400616: ORG-f_index_03_L
+    400618: ORG-f_index_03_R
+    400620: ORG-f_middle_01_L
+    400622: ORG-f_middle_01_R
+    400624: ORG-f_middle_02_L
+    400626: ORG-f_middle_02_R
+    400628: ORG-f_middle_03_L
+    400630: ORG-f_middle_03_R
+    400632: ORG-f_pinky_01_L
+    400634: ORG-f_pinky_01_R
+    400636: ORG-f_pinky_02_L
+    400638: ORG-f_pinky_02_R
+    400640: ORG-f_pinky_03_L
+    400642: ORG-f_pinky_03_R
+    400644: ORG-f_ring_01_L
+    400646: ORG-f_ring_01_R
+    400648: ORG-f_ring_02_L
+    400650: ORG-f_ring_02_R
+    400652: ORG-f_ring_03_L
+    400654: ORG-f_ring_03_R
+    400656: ORG-foot_L
+    400658: ORG-foot_R
+    400660: ORG-forearm_L
+    400662: ORG-forearm_R
+    400664: ORG-hand_L
+    400666: ORG-hand_R
+    400668: ORG-head
+    400670: ORG-heel_02_L
+    400672: ORG-heel_02_R
+    400674: ORG-heel_L
+    400676: ORG-heel_R
+    400678: ORG-hips
+    400680: ORG-neck
+    400682: ORG-shin_L
+    400684: ORG-shin_R
+    400686: ORG-shoulder_L
+    400688: ORG-shoulder_R
+    400690: ORG-spine
+    400692: ORG-thigh_L
+    400694: ORG-thigh_R
+    400696: ORG-thumb_01_L
+    400698: ORG-thumb_01_R
+    400700: ORG-thumb_02_L
+    400702: ORG-thumb_02_R
+    400704: ORG-thumb_03_L
+    400706: ORG-thumb_03_R
+    400708: ORG-toe_L
+    400710: ORG-toe_R
+    400712: ORG-upper_arm_L
+    400714: ORG-upper_arm_R
+    400716: rig
+    400718: root
+    400720: shin_fk_L
+    400722: shin_fk_R
+    400724: shin_hose_L
+    400726: shin_hose_R
+    400728: shoulder_L
+    400730: shoulder_R
+    400732: spine
+    400734: //RootNode
+    400736: thigh_fk_L
+    400738: thigh_fk_R
+    400740: thigh_hose_L
+    400742: thigh_hose_R
+    400744: thumb_01_L
+    400746: thumb_01_R
+    400748: thumb_02_L
+    400750: thumb_02_R
+    400752: thumb_03_L
+    400754: thumb_03_R
+    400756: thumb_L
+    400758: thumb_R
+    400760: toe_L
+    400762: toe_R
+    400764: torso
+    400766: upper_arm_fk_L
+    400768: upper_arm_fk_R
+    400770: upper_arm_hose_L
+    400772: upper_arm_hose_R
+    400774: VIS-foot_ik_L
+    400776: VIS-foot_ik_R
+    400778: VIS-hand_ik_L
+    400780: VIS-hand_ik_R
+    400782: VIS-thigh_pole_ik_L
+    400784: VIS-thigh_pole_ik_R
+    400786: VIS-upper_arm_pole_ik_L
+    400788: VIS-upper_arm_pole_ik_R
+    7400000: CrouchIdle
+    7400002: GetUpFront
+    7400004: Idle
+    7400006: Fall
+    7400008: Jump
+    7400010: Grab
+    7400012: Landing
+    7400014: LandingDown
+    7400016: RunCycle
+    7400018: RunOne
+    7400020: RunTwo
+    7400022: WalkOne
+    7400024: WalkTwo
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'CrouchIdle' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'ORG-chest' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'GetUpFront' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'ORG-chest' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Idle' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'ORG-chest'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Landing' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'ORG-chest'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RunCycle' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'ORG-chest'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thig L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thig R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lower Leg L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lower Leg R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Feet L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Feet R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArm L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArm R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toes L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toes R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thumb End L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thumb End R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fingers Start L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fingers End L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fingers Start R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fingers End R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Witch(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: Witch(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.12, y: 0.12, z: 0.12}
+    - name: Root
+      parentName: Armature
+      position: {x: -0, y: 1, z: 0}
+      rotation: {x: -6.123234e-17, y: 0.00000008940697, z: 1, w: -6.123234e-17}
+      scale: {x: 1.0000048, y: 1.0000029, z: 1.0000029}
+    - name: Hips
+      parentName: Root
+      position: {x: -0, y: 1, z: 7.8}
+      rotation: {x: 0.00000003090862, y: -0.7071068, z: -0.7071068, w: 0.00000003090862}
+      scale: {x: 1.0000043, y: 1.0000033, z: 1.0000033}
+    - name: Spine
+      parentName: Hips
+      position: {x: -0, y: 1.3000002, z: 0}
+      rotation: {x: 2.6765506e-24, y: -0.00000004371139, z: -0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000004}
+    - name: Chest
+      parentName: Spine
+      position: {x: -0, y: 1.3000002, z: 0}
+      rotation: {x: -0.070889056, y: -0.000000042040813, z: 0.0000000029877487, w: 0.99748427}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.9999996}
+    - name: Neck
+      parentName: Chest
+      position: {x: -1.7763568e-15, y: 1.4142134, z: 0.000000044703484}
+      rotation: {x: 0.070889056, y: 0.000000042040813, z: -0.0000000029877487, w: 0.99748427}
+      scale: {x: 0.99999994, y: 0.9999994, z: 1.0000007}
+    - name: Head
+      parentName: Neck
+      position: {x: -0, y: 0.8999996, z: -0.000000004470351}
+      rotation: {x: 0.08722517, y: -0.000000059377466, z: -0.0000000051990248, w: 0.99618864}
+      scale: {x: 1.0000001, y: 1.000001, z: 1.0000002}
+    - name: Hat 1
+      parentName: Head
+      position: {x: -0.000050336595, y: 1.6050617, z: -1.1761894}
+      rotation: {x: -0.5620869, y: 0.000000049297768, z: 0.00000003350311, w: 0.82707816}
+      scale: {x: 1, y: 1.0000001, z: 0.9999994}
+    - name: Hat 2
+      parentName: Hat 1
+      position: {x: -7.015851e-13, y: 1.526433, z: -0.00000035762787}
+      rotation: {x: 0.7524316, y: -0.019087149, z: -0.016696332, w: -0.65818214}
+      scale: {x: 1.0000017, y: 1.0000073, z: 1.0000061}
+    - name: Hat 3
+      parentName: Hat 2
+      position: {x: 0.000000074505806, y: 1.9723083, z: -0.00000047236458}
+      rotation: {x: -0.11350062, y: 0.9114677, z: -0.38939163, w: -0.06869199}
+      scale: {x: 1.0000086, y: 1.0000055, z: 1.0000006}
+    - name: Hat 4
+      parentName: Hat 3
+      position: {x: 0.00000020861626, y: 1.3601468, z: 0.00000028687612}
+      rotation: {x: -0.069633774, y: -0.027415236, z: -0.07627807, w: 0.99427426}
+      scale: {x: 0.99999696, y: 0.99999696, z: 1.0000007}
+    - name: Hat 5
+      parentName: Hat 4
+      position: {x: 0.00000047683716, y: 0.91651404, z: -0.00000026224845}
+      rotation: {x: 0.15146112, y: 0.07866752, z: -0.027000131, w: 0.9849579}
+      scale: {x: 1.0000023, y: 1.0000049, z: 1.0000017}
+    - name: Shoulder L
+      parentName: Chest
+      position: {x: -0.20425901, y: 1.391074, z: -0.019521846}
+      rotation: {x: 0.04268917, y: -0.056594122, z: 0.7963401, w: 0.60068065}
+      scale: {x: 1.0000013, y: 1.0000015, z: 1.0000008}
+    - name: UpperArm L
+      parentName: Shoulder L
+      position: {x: 0.000000101079884, y: 0.7280113, z: 6.708579e-10}
+      rotation: {x: -0.00000050850196, y: 0.0000001713633, z: -0.110663086, w: 0.993858}
+      scale: {x: 1.0000025, y: 1.0000056, z: 0.99999994}
+    - name: LowerArm L
+      parentName: UpperArm L
+      position: {x: -0.000001013279, y: 1.9416498, z: 0.00000023841858}
+      rotation: {x: 0.03862605, y: -0.002446244, z: -0.036183923, w: 0.9985954}
+      scale: {x: 1.0000056, y: 1.0000046, z: 0.99999905}
+    - name: Hand L
+      parentName: LowerArm L
+      position: {x: 0.00000018626451, y: 1.8601078, z: 0.00000017881393}
+      rotation: {x: -0.08683968, y: -0.006845818, z: -0.09151256, w: 0.9919867}
+      scale: {x: 1.0000032, y: 0.9999982, z: 1.0000033}
+    - name: Fingers Start L
+      parentName: Hand L
+      position: {x: -0.0000004849945, y: 0.3723028, z: 0.000000006519258}
+      rotation: {x: 0.08742982, y: 0.024575414, z: 0.16817926, w: 0.9815639}
+      scale: {x: 1.0000045, y: 1.0000056, z: 1.0000023}
+    - name: Fingers End L
+      parentName: Fingers Start L
+      position: {x: 0.000000006315789, y: 0.38562822, z: -0.00000014901161}
+      rotation: {x: 0.0000000670552, y: 0.00000008381899, z: 0.0000006274783, w: 1}
+      scale: {x: 1.000005, y: 1.0000042, z: 1.0000002}
+    - name: Thumb End L
+      parentName: Hand L
+      position: {x: -0.22952917, y: 0.16042525, z: 0.21070969}
+      rotation: {x: 0.21687172, y: 0.06970768, z: 0.31401405, w: 0.92168474}
+      scale: {x: 1.0000042, y: 1.0000036, z: 1.0000038}
+    - name: Shoulder R
+      parentName: Chest
+      position: {x: 0.20425901, y: 1.391074, z: -0.019521879}
+      rotation: {x: 0.042689104, y: 0.056594227, z: -0.7963401, w: 0.60068065}
+      scale: {x: 1.0000012, y: 1.0000015, z: 1.0000008}
+    - name: UpperArm R
+      parentName: Shoulder R
+      position: {x: 0.0000008194312, y: 0.7280111, z: 0.000000015572018}
+      rotation: {x: 0.00000041723237, y: 0.0000002384185, z: -0.110662974, w: -0.993858}
+      scale: {x: 0.99999976, y: 1.0000019, z: 1.0000001}
+    - name: LowerArm R
+      parentName: UpperArm R
+      position: {x: 0.0000011026859, y: 1.9416492, z: 0.0000006556511}
+      rotation: {x: -0.038625762, y: -0.0024461534, z: -0.036183923, w: -0.9985955}
+      scale: {x: 1.000006, y: 1.0000054, z: 1.0000002}
+    - name: Hand R
+      parentName: LowerArm R
+      position: {x: 0.00000021979213, y: 1.8601081, z: -0.00000014156103}
+      rotation: {x: -0.0868397, y: 0.006845934, z: 0.091512464, w: 0.99198663}
+      scale: {x: 1.0000027, y: 0.9999983, z: 1.0000023}
+    - name: Fingers Start R
+      parentName: Hand R
+      position: {x: -0.00000046790714, y: 0.3723011, z: 0.0000000048894435}
+      rotation: {x: -0.0874287, y: 0.024575593, z: 0.16817817, w: -0.9815643}
+      scale: {x: 1.000001, y: 1.0000035, z: 1.0000019}
+    - name: Fingers End R
+      parentName: Fingers Start R
+      position: {x: 0.000000016786652, y: 0.3856294, z: 0.00000006146729}
+      rotation: {x: 0.00000006705522, y: -0.000000055879347, z: -0.00000015599652,
+        w: 1}
+      scale: {x: 1.0000048, y: 1.0000043, z: 1.0000005}
+    - name: Thumb End R
+      parentName: Hand R
+      position: {x: 0.22952846, y: 0.16042371, z: 0.21070972}
+      rotation: {x: -0.21687168, y: 0.06970769, z: 0.3140141, w: -0.92168474}
+      scale: {x: 1.0000038, y: 1.000004, z: 1.0000027}
+    - name: Thig L
+      parentName: Hips
+      position: {x: -0.6827322, y: -0.024101734, z: -0.1412043}
+      rotation: {x: 0.0007839338, y: 0.048185997, z: 0.9987083, w: 0.016104711}
+      scale: {x: 1.0000035, y: 1.000008, z: 0.99993837}
+    - name: Lower Leg L
+      parentName: Thig L
+      position: {x: -0.000000038940925, y: 3.1160874, z: -0.00000009359792}
+      rotation: {x: -0.1496035, y: 0.000059751554, z: -0.0011094959, w: 0.9887455}
+      scale: {x: 1.000009, y: 1.0000093, z: 0.99999964}
+    - name: Feet L
+      parentName: Lower Leg L
+      position: {x: -0.000000022468157, y: 2.9631152, z: -0.00000003958121}
+      rotation: {x: 0.3551804, y: 0.0027329412, z: 0.017015748, w: 0.9346389}
+      scale: {x: 1.0000062, y: 0.9998962, z: 1.0001111}
+    - name: Toes L
+      parentName: Feet L
+      position: {x: -0.00000001639637, y: 1.903949, z: 0.000000079046}
+      rotation: {x: 0.500513, y: -0.000000105705084, z: 0.00000004330649, w: 0.86572903}
+      scale: {x: 1.0000019, y: 1.0001445, z: 0.99985766}
+    - name: Thig R
+      parentName: Hips
+      position: {x: 0.6827322, y: -0.024101734, z: -0.14120418}
+      rotation: {x: -0.00078403973, y: 0.048185997, z: 0.9987083, w: -0.01610472}
+      scale: {x: 1.0000036, y: 1.0000073, z: 0.99993837}
+    - name: Lower Leg R
+      parentName: Thig R
+      position: {x: 0.00000008614734, y: 3.1160882, z: 0.000000007450581}
+      rotation: {x: -0.14960358, y: -0.000059767845, z: 0.0011094942, w: 0.98874545}
+      scale: {x: 1.0000066, y: 1.0000097, z: 0.99999875}
+    - name: Feet R
+      parentName: Lower Leg R
+      position: {x: 0.00000014901161, y: 2.9631147, z: 0.00000014528632}
+      rotation: {x: 0.35518062, y: -0.002732806, z: -0.017015703, w: 0.93463886}
+      scale: {x: 0.9999998, y: 0.9998993, z: 1.000112}
+    - name: Toes R
+      parentName: Feet R
+      position: {x: -0.00000006053597, y: 1.9039488, z: 0.000000029802322}
+      rotation: {x: 0.50051284, y: -0.000000014202666, z: 0.0000000076834095, w: 0.86572915}
+      scale: {x: 1.0000122, y: 1.0001535, z: 0.9998578}
+    - name: Hair_Eastern.001
+      parentName: Witch(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hands_Naked
+      parentName: Witch(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head_Eastern.001
+      parentName: Witch(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Legs_Naked
+      parentName: Witch(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.120000035, y: 0.120000035, z: 0.120000035}
+    - name: Torso_Cloak
+      parentName: Witch(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.17999999, y: 0.17999999, z: 0.17999999}
+    - name: Torso_Naked
+      parentName: Witch(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: bb2a742e9a4f67042a385a582ee893d5,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

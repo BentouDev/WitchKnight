@@ -1,0 +1,65 @@
+[
+  {
+    "color": [
+      255,
+      0,
+      0
+    ],
+    "comment": "Spear_hit",
+    "frame": 181
+  },
+  {
+    "color": [
+      170,
+      0,
+      0
+    ],
+    "comment": "Idle_start",
+    "frame": 50
+  },
+  {
+    "color": [
+      170,
+      0,
+      0
+    ],
+    "comment": "Iddle_mid",
+    "frame": 71
+  },
+  {
+    "color": [
+      170,
+      0,
+      0
+    ],
+    "comment": "Iddle_end",
+    "frame": 90
+  },
+  {
+    "color": [
+      0,
+      85,
+      0
+    ],
+    "comment": "Run_middle",
+    "frame": 100
+  },
+  {
+    "color": [
+      0,
+      85,
+      0
+    ],
+    "comment": "Run_mid",
+    "frame": 111
+  },
+  {
+    "color": [
+      0,
+      85,
+      0
+    ],
+    "comment": "Run_end",
+    "frame": 119
+  }
+]

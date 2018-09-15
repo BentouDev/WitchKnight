@@ -53,6 +53,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1952790517238610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4257025882594620}
+  - component: {fileID: 114815090526304058}
+  m_Layer: 0
+  m_Name: Character
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &4011172556545524
 Transform:
   m_ObjectHideFlags: 1
@@ -64,8 +80,22 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4420098784061272}
+  - {fileID: 4257025882594620}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4257025882594620
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1952790517238610}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4011172556545524}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4420098784061272
 Transform:
@@ -86,7 +116,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1016727728972054}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -175,6 +205,41 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114815090526304058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1952790517238610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc06e657eaceb0344848b51ec5e14cc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pawn: {fileID: 114903707731414294}
+  AnimGraph: {fileID: 9100000, guid: a1e2d56da5282b5488a9c3078796ee34, type: 2}
+  Skeleton: {fileID: 9000000, guid: bb2a742e9a4f67042a385a582ee893d5, type: 3}
+  SlotDefinition: {fileID: 11400000, guid: e0cf7b51971039542a8a919b79a2947f, type: 2}
+  RootMesh: {fileID: 100032, guid: 9afaca2a2bedab14799a632a0aa038b5, type: 3}
+  Slots:
+  - Mesh: {fileID: 0}
+    Name: Hat
+  - Mesh: {fileID: 100034, guid: 1aeaaa46e9adeaa47b4d9dc58677fcf1, type: 3}
+    Name: Hair
+  - Mesh: {fileID: 100034, guid: 7480ca91b2763fb428de3f312cc7cf76, type: 3}
+    Name: Head
+  - Mesh: {fileID: 100032, guid: 6dc5a74ee932adb4cbc5d70de3550c0f, type: 3}
+    Name: OverTorso
+  - Mesh: {fileID: 100032, guid: 9afaca2a2bedab14799a632a0aa038b5, type: 3}
+    Name: Torso
+  - Mesh: {fileID: 100034, guid: 7ef713d5c4bf19147801294bb09b59ec, type: 3}
+    Name: Hands
+  - Mesh: {fileID: 100032, guid: c189b509d2a1f1848945debdecfc0460, type: 3}
+    Name: UpperLegs
+  - Mesh: {fileID: 0}
+    Name: Skirt
+  - Mesh: {fileID: 0}
+    Name: Boots
 --- !u!114 &114860044409922252
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -256,8 +321,8 @@ MonoBehaviour:
   CurrentDirection: {x: 0, y: 0, z: 0}
   Animation:
     MovementBlend: Forward
-    AirBoolean: InAir
-    MoveBoolean: 
+    AirBoolean: 
+    MoveBoolean: IsMoving
   AllStates: []
   CircleDirection: {x: 0, y: 0, z: 0}
   Damping: {x: 0, y: 0, z: 0}

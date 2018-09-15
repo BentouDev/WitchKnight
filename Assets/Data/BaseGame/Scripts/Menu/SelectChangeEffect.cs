@@ -9,7 +9,7 @@ public class SelectChangeEffect : MonoBehaviour
 {
     public bool IsAutomatic;
     public RectTransform Gadget;
-    public float Speed;
+    public float Speed = 1;
     public Vector2 Padding;
 
     private Vector3 TargetPos;
